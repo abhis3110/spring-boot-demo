@@ -18,7 +18,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             employee.setEmployeeId(UUID.randomUUID().toString());
         }
         employees.add(employee);
-        return null;
+        return employee;//null;
     }
 
     @Override
